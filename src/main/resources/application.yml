@@ -1,5 +1,12 @@
 spring:
   datasource:
+    hikari:
+      minimumIdle: 1
+      maximumPoolSize: 1
+      idleTimeout: 30000
+      poolName: SpringBootJPAHikariCP
+      maxLifetime: 2000000
+      connectionTimeout: 30000
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: 0IhWljFaevFS95cHglP
     url: jdbc:mysql://uzl5gsuypl2jchxg:0IhWljFaevFS95cHglP@bcehgwqefwkmrysjbzw4-mysql.services.clever-cloud.com:21099/bcehgwqefwkmrysjbzw4
