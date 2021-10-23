@@ -1,7 +1,5 @@
 package com.news.api;
 
-import java.util.List;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,10 +9,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Noticias {
-	
-	private String status;
-	private int totalResults;
-	private List<Articles> articles;
+public class Source {
 
+	private String id;
+	private String name;
+	
 }

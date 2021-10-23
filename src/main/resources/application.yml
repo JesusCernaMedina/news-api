@@ -1,16 +1,9 @@
 spring:
   datasource:
-    hikari:
-      minimumIdle: 1
-      maximumPoolSize: 1
-      idleTimeout: 30000
-      poolName: SpringBootJPAHikariCP
-      maxLifetime: 2000000
-      connectionTimeout: 30000
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 0IhWljFaevFS95cHglP
-    url: jdbc:mysql://uzl5gsuypl2jchxg:0IhWljFaevFS95cHglP@bcehgwqefwkmrysjbzw4-mysql.services.clever-cloud.com:21099/bcehgwqefwkmrysjbzw4
-    username: uzl5gsuypl2jchxg
+    password: 2020covid19UAM
+    url: jdbc:mysql://super-app-hackathon.cluster-cxcdnslqi7uc.us-east-1.rds.amazonaws.com:3306/super_app_bd?useSSL=false
+    username: superapp
   jpa:
     hibernate:
       ddl-auto: none
