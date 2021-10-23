@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 0IhWljFaevFS95cHglP
+    url: jdbc:mysql://uzl5gsuypl2jchxg:0IhWljFaevFS95cHglP@bcehgwqefwkmrysjbzw4-mysql.services.clever-cloud.com:21099/bcehgwqefwkmrysjbzw4
+    username: uzl5gsuypl2jchxg
+  jpa:
+    hibernate:
+      ddl-auto: none
